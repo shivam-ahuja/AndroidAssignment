@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:clickable="true"
+    tools:context="com.ahujasahab.androidassignment.ImageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_gravity="center"
+       android:id="@+id/fullimageiv"
+       android:scaleType="fitXY"/>
+
+</FrameLayout>
